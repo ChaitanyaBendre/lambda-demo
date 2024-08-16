@@ -9,7 +9,7 @@ def lambda_handler(event, context):
     key_id = 'arn:aws:kms:us-east-1:381491837252:key/b1887ad4-f1b5-4483-a633-e09c556f2490'
     
     # Example plaintext data to encrypt
-    plaintext = 'Hello, this is a secret message!'
+    plaintext = 'Hello, this is a secret message details!'
     
     # Encrypt the data
     encrypted_data = encrypt_data(key_id, plaintext)
